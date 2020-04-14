@@ -23,9 +23,9 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = 'vvkh$5vkrr@f05hmrru%)5%+ssqe(-5)yhr20^+=fu6t3rtuqh'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["mysterious-dawn-36444.herokuapp.com",]
 
 
 # Application definition
